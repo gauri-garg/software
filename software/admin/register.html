@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="ct" id="t1">
+        <div class="ct" id="t2">
+            <div class="ct" id="t3">
+                <div class="ct" id="t4">
+                    <div class="ct" id="t5">
+                        <section>
+                            <ul>
+                                <a href="#t1">
+                                    <li class="icon fa fa-home" id="uno">Register patient</li>
+                                </a>
+                                <a href="#t2">
+                                    <li class="icon fa fa-keyboard-o" id="dos">Bed Availability</li>
+                                </a>
+                                <a href="#t3">
+                                    <li class="icon fa fa-coffee" id="tres">Blood Bank</li>
+                                </a>
+                                <a href="#t4">
+                                    <li class="icon fa fa-dribbble" id="cuatro">Inventory Management</li>
+                                </a>
+                                <a href="#t5">
+                                    <li class="icon fa fa-doctor" id="staff">Staff Management</li>
+                                </a>
+
+                            </ul>
+                            <div class="page" id="p1">
+                                <div class="container">
+                                    <header>
+                                        <h2 class="tag-line">APPOINTMENT</h2>
+                                    </header>
+                                    <form action="#" method="GET">
+                                        <fieldset class="contact-info">
+                                            <div class="container">
+                                                <legend>Contact Information</legend>
+                                                <p>
+                                                    <label for="name">Full Name</label>
+                                                    <input type="text" id="name" name="user_name" placeholder="Required"
+                                                        title="Please fill out this field">
+                                                </p>
+                                                <p>
+                                                    <label for="email">Email Address</label>
+                                                    <input type="email" id="email" name="user_email"
+                                                        placeholder="Required" title="Please fill out this field">
+                                                </p>
+                                                <p>
+                                                    <label for="address">Street Adress</label>
+                                                    <input type="text" id="address" name="user_address">
+                                                </p>
+                                                <p>
+                                                    <label for="city">City</label>
+                                                    <input type="text" id="city" name="user_city">
+                                                </p>
+                                                <p>
+                                                    <label for="state">State</label>
+                                                    <select id="state" name="user_state">
+                                                        <option value="state">Choose State</option>
+                                                        <option value="abc">ABC</option>
+                                                        <option value="def">DEF</option>
+                                                        <option value="geh">GEH</option>
+                                                        <option value="ijk">IJK</option>
+                                                        <option value="ftg">FTG</option>
+                                                        <option value="hjk">HJK</option>
+                                                        <option value="kil">KIL</option>
+                                                        <option value="tyu">TYU</option>
+                                                        <option value="ewt">EWT</option>
+                                                        <option value="yrt">YRT</option>
+                                                        <option value="sef">SEF</option>
+                                                        <option value="bhj">BHJ</option>
+                                                        <option value="jki">JKI</option>
+                                                        <option value="lop">LOP</option>
+                                                        <option value="pol">POL</option>
+                                                        <option value="rty">RTY</option>
+                                                        <option value="wer">WER</option>
+                                                        <option value="aws">AWS</option>
+                                                        <option value="upe">UPE</option>
+                                                    </select>
+                                                </p>
+                                                <p>
+                                                    <label for="number">Phone</label>
+                                                    <input type="tel" id="city" name="contact"
+                                                        placeholder="Your Phone *">
+                                                </p>
+                                            </div>
+                                        </fieldset>
+                                        <div class="form-group" style="
+                                        width: 30%;
+                                    ">
+                                            <div class="maxl">
+                                                <label class="radio inline">
+                                                    <input type="radio" name="gender" value="Male" checked>
+                                                    <span> Male </span>
+                                                </label>
+                                                <label class="radio inline">
+                                                    <input type="radio" name="gender" value="Female">
+                                                    <span>Female </span>
+                                                </label>
+                                            </div>
+
+                                            <p>How did you find us?</p>
+                                            <p>
+                                                <select>
+                                                    <option value="PickOne">Pick One</option>
+                                                    <option value="Google">Google</option>--
+                                                    <option value="Bing">Bing</option>
+                                                    <option value="Social Site">Social Site</option>
+                                                    <option value="Friends/Workplace">Friends/Workplace</option>
+                                                </select>
+                                            </p>
+
+                                            <p>What Illness Do You Have?</p>
+                                            <p>
+                                                <textarea id="interest" name="user_interest"></textarea> <br />
+                                            </p>
+                                        </div>
+                                        </fieldset>
+                                    </form>
+                                    <div class="footer">
+                                        <button type="submit">Confirm</button>
+                                        <p>&copy; Copyright SMS Hospital </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="page" id="p2">
+                                <h1 style="text-align: center; color: rgb(122, 43, 226);">Fixed Table header</h1>
+                                <table class="table table-sm table-success">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Series</th>
+                                            <th scope="col">Hospital</th>
+                                            <th scope="col">Contact</th>
+                                            <th scope="col">Bed Available</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>SMS</td>
+                                            <td>+91-3458320472</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>FORTIS</td>
+                                            <td>+91-3841230448</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>ETERNAL</td>
+                                            <td>+91-3451238593</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>GOPINATH</td>
+                                            <td>+91-4487507593</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>MAHATMA GANDHI</td>
+                                            <td>+91-6942238593</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>APEX</td>
+                                            <td>+91-3286445093</td>
+                                            <td>3</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="page" id="p3">
+                            </div>
+                            <div class="page" id="p4">
+                            </div>
+                            <div class="page" id="p5">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
